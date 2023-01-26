@@ -1,0 +1,31 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top, #d19b25 0%, #8570d3 100%);
+}
+
+.country-list {
+  list-style: none;
+}
+
+input[type='text']:focus {
+  border: 3px solid rgb(81, 81, 81);
+  outline: none;
+}
+
+.country-list__item {
+  padding: 5px 0;
+  font-size: 18px;
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  text-align: center;
+}
+
+.container {
+  padding-top: 240px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
